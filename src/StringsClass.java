@@ -86,8 +86,25 @@ public class StringsClass {
 
 
 
+        String text= "Java class";
+        System.out.println(text.isEmpty());
+        System.out.println(text.substring(3));
+        System.out.println(text.substring(5));
+
+        int e = text.length();
+        System.out.println(e);
+
+        System.out.println(text.substring(5,10));
 
 
+        String stt1 = "PHP Exercises and";
+        String stt2 = " Python Exercises";
+
+        System.out.println(stt1.length() + stt2.length());
+
+
+        String email= "email@gmail.com ";
+        System.out.println(email.contains("@"));
 
 
 

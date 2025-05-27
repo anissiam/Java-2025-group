@@ -206,6 +206,62 @@ public class FirstClass {
 
          x = 50;
 
+
+        int firstNo = 10;
+
+        int myNum = 5;
+        float myFloatNum = 5.99f;
+        char myLetter = 'D';
+        boolean myBool = true;
+
+        System.out.println(myNum);
+
+
+        int cc = 90;
+
+        double dd = cc;
+        System.out.println(dd);
+
+
+        int result = 1 + 2; // result is now 3
+        System.out.println(result);
+
+        result = result - 1; // result is now 2  // result -=1
+
+        System.out.println(result);
+
+        result = result * 2; // result is now 4 //result *=2
+
+        System.out.println(result);
+
+        result = result / 2; // result is now 2
+        System.out.println(result);
+
+        result = result + 8; // result is now 10
+        result = result % 7; // result is now 3
+        System.out.println(result);
+
+
+        int i = 3;
+        System.out.println(++i);
+        i++;
+        System.out.println(i);
+        System.out.println(i++);
+        System.out.println(i++);
+        System.out.println(i);
+
+
+        int z = 125;
+        int y = 24;
+
+        int q = z + y;
+
+        System.out.println(q);
+
+
+
+
+
     }
 
 }
