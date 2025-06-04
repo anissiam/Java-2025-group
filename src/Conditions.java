@@ -6,6 +6,8 @@ public class Conditions {
 
 
 
+
+
        /* System.out.println("Plz enter the line");
         String line = scanner.nextLine();
 
