@@ -365,12 +365,59 @@ public class Loops {
 
          */
 
-        for (int i = 0; i < 5; i++) {
+       /* for (int i = 0; i < 5; i++) {
             for (int j = 0; j <= i; j++) {
                 System.out.print("*");
             }
             System.out.println();
+        }*/
+
+        /*for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }*/
+
+        //RAM:
+        //i:0 1 2 3
+        //j:0 1 2 3
+        //console:
+        /*
+        ***
+        ***
+        ***
+         */
+
+
+        //
+
+
+/*
+        *         i , j
+        **
+        ***
+        ****
+        *****
+
+         */
+
+        /*for (int i = 0; i < 5; i++) {
+            for (int j = 0; j <= i; j++) {
+                    System.out.print("*");
+            }
+            System.out.println();
         }
+*/
+
+       /* for (int i = 1; i <= 4 ; i++) {
+            System.out.println( "Week " + i);
+            for (int j = 1; j <= 7; j++) {
+             System.out.print("Day"+ j + " ");
+            }
+            System.out.println();
+        }
+*/
 
     }
 }
