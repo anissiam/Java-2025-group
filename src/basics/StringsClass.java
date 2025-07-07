@@ -1,3 +1,5 @@
+package basics;
+
 public class StringsClass {
     public static void main(String[] args) {
         char x = 65;  //

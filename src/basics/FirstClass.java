@@ -1,4 +1,4 @@
-import javax.swing.*;
+package basics;
 
 public class FirstClass {
   static   int g  = 10 ; // global var

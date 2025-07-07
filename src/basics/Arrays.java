@@ -1,3 +1,5 @@
+package basics;
+
 import java.util.Scanner;
 
 public class Arrays {
@@ -203,7 +205,7 @@ public class Arrays {
         console :50 , 10 .... 15
          */
 
-       // System.out.println(java.util.Arrays.toString(numbers));
+       // System.out.println(java.util.basics.Arrays.toString(numbers));
 
 
 
@@ -278,14 +280,14 @@ loop 1
 loop 2
 تمشي على كل صف
  */
-        for (int i = 0; i < num.length; i++) {
+       /* for (int i = 0; i < num.length; i++) {
             for (int j = 0; j < num[i].length; j++) {
                 System.out.print(num[i][j] + "  ");
 
             }
             System.out.println();
 
-        }
+        }*/
         /*
          ram :
           i :0 1
@@ -313,6 +315,54 @@ loop 2
       /*  for (int i = 0; i < num.length; i++) {
 
         }*/
+/*
+        int matrix[][] = new int[5][5];
+
+
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                matrix[i][j] =(i + 1) * (j + 1);
+                System.out.printf("%4d", matrix[i][j]);
+            }
+            System.out.println();
+        }*/
+
+   /*     1 2 3 4 5
+        2 4 6 8 10    */
+
+     /*   int matrix[][] = {
+                {2, 7, 9},
+                {4, 5, 3}
+        };
+
+        System.out.println("Plz enter the target");
+        int target = scanner.nextByte();
+
+        boolean found = false;
+
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                if (target == matrix[i][j]){
+                    found = !found;
+                    System.out.println("Found in[" + i + " " + j  + "]");
+                    break;
+                }
+            }
+        }
+
+        if (!found){
+            System.out.println("Not found");
+        }
+
+        */
+
+         //  i=                0       1       2      3       4
+       /* String[] names1 = {"Anis", "sami", "ali", "Nena", "mosa"};
+
+        for (int i = names1.length-1; i >=0 ; i--) {
+            System.out.println(names1[i]);
+        }
+        */
 
 
 
