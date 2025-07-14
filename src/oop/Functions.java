@@ -7,9 +7,14 @@ public class Functions {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        printArray(5);
+        int[] sss = {6, 8, 7};
+        newSum(sss);
+
+
+        newSum(9, 7);
+        /*printArray(5);
         System.out.println("======================================");
-        printArray(3);
+        printArray(3);*/
 
        /* int ava = sum() / 5;
         System.out.println(ava);
@@ -189,6 +194,50 @@ public class Functions {
         }
 
     }
+
+
+    public static int test(int num1 , int num2 ){
+        return num1 + num2;
+    }
+        //Overload
+    /*
+    -change type of parameter
+    -change number of parameter
+     */
+    public static String test(String num1 , String num2 ){
+        return num1 + num2;
+    }
+
+
+
+    public static void runApp(){
+        System.out.println(test("9", "8"));
+        System.out.println(test(9,8));
+    }
+
+
+
+    public static void newSum(int num1 , int num2){
+        System.out.println(num1 + num2);
+    }
+    public static void newSum(int [] numbers){
+        int sum = 0;
+        for (int num : numbers){
+            sum += num;
+        }
+
+        System.out.println(sum);
+
+    }
+
+
+    public static void printPerson(String name, int age) {
+
+    }
+
+  /*  public static void printPerson(String name,int language) {
+
+    }*/
 
 
 
