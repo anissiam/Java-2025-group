@@ -1,5 +1,7 @@
 package oop.constructor;
 
+import oop.encp.Bank;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -81,11 +83,16 @@ public class Main {
         System.out.println("/////////////////////////////////////////////");
 
 
-        System.out.println(Test.encodePassword("123"));
+        /*System.out.println(Test.encodePassword("123"));
+
+
+        System.out.println(CalcCircle.calcArea(10));
+        System.out.println(CalcCircle.PI);*/
 
 
 
     }
+
 }
 
 
