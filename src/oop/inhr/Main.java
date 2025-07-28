@@ -1,7 +1,10 @@
 package oop.inhr;
 
+import oop.intro.Account;
+
 public class Main {
     public static void main(String[] args) {
+/*
 
         String sss = new String();
         Animal animal2 = new Animal("locy", 3 );
@@ -24,6 +27,11 @@ public class Main {
         Cat newCat = new Cat();
         newCat.sound = "Meow Meowwwwww";
         newCat.makeSound();
+*/
+
+        Person person = new Person();
+
+        Employee employee = new Employee();
 
     }
 }

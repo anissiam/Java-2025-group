@@ -1,5 +1,7 @@
 package basics;
 
+import oop.intro.Account;
+
 import java.util.Scanner;
 
 public class Arrays {

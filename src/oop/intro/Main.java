@@ -48,7 +48,7 @@ System.out.println("////////////////////////////");
          */
 
 
-        Scanner scanner = new Scanner(System.in);
+       /* Scanner scanner = new Scanner(System.in);
         Calc calc = new Calc();
         calc.inputNumbers();
 
@@ -71,12 +71,29 @@ System.out.println("////////////////////////////");
             default:
                 System.out.println("Not valid ");
                 break;
-        }
+        }*/
 
 
+      /*  Shape shape = new Shape(10,5, "Rec");
+        shape.area();*/
 
 
+  /*      Account account = new Account("anis", "anis@gmail.com", 200, "1111");
+        System.out.println(account.convert() + "$");
 
+
+*/
+        
+
+        /*
+        Object
+        -radius = 1.0
+        -color = "red"
+        */
+
+        Circle ccc = new Circle();
+        ccc.getRadius();
+        System.out.println(ccc.getArea());
 
     }
 
