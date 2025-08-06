@@ -1,6 +1,7 @@
 package oop.project1;
 
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -28,11 +29,13 @@ public class Main {
 
                     break;
                 case 3:
+                    updateStudent(studentArray);
                     break;
                 case 4:
                     printStudents(studentArray);
                     break;
                 case 5:
+                    getMax(studentArray);
                     break;
                 case 6:
                     System.exit(0);
@@ -47,44 +50,61 @@ public class Main {
         //  studentArray[0]; // objects are created dynamically type (Student)
 
 
-        for (int i = 0; i < studentArray.length; i++) {
+        /*for (int i = 0; i < studentArray.length; i++) {
             System.out.println(studentArray[i]);
 
-        }
+        }*/
 
+    }
+
+    private static void getMax(Student[] studentArray) {
+        int max = 0;
+        Student maxStudent = null;
+        for (Student student : studentArray) {
+            if (student.getGrade() > max){
+                max = student.getGrade();
+                maxStudent = student;
+            }
+        }
+        System.out.println(maxStudent);
     }
 
     private static void addStudent(Student[] studentArray) {
         for (int i = 0; i < studentArray.length; i++) {
             scanner.nextLine();
-            studentArray[i] = new Student();
+
+            Student student = new Student();
+
 
             System.out.println("Enter student name");
             String name = scanner.nextLine();
-            studentArray[i].setName(name);
+            student.setName(name);
 
             System.out.println("Enter student age");
             int age = scanner.nextInt();
-            studentArray[i].setAge(age);
+            student.setAge(age);
             scanner.nextLine();
             System.out.println("Enter Student gender");
             char g = scanner.nextLine().charAt(0);
-            studentArray[i].setGender(g);
+            student.setGender(g);
 
 
             System.out.println("Enter Student major");
             String major = scanner.nextLine();
-            studentArray[i].setMajor(major);
+            student.setMajor(major);
 
             System.out.println("Enter Student grade");
             int grade = scanner.nextInt();
-            studentArray[i].setGrade(grade);
+            student.setGrade(grade);
+
+            studentArray[i] = student;
+
         }
     }
 
     private static void printStudents(Student[] studentArray) {
         for (int i = 0; i < studentArray.length; i++) {
-            if (studentArray[i] == null){
+            if (studentArray[i] != null){
                 System.out.println(studentArray[i]);
             }
         }
@@ -105,6 +125,17 @@ public class Main {
     }
 
     private static void updateStudent(Student[] studentArray){
+        scanner.nextLine();
+
+        System.out.println("plz enter the name you want ot update ");
+        String name = scanner.nextLine();
+        for (int i = 0; i < studentArray.length; i++) {
+            if (studentArray[i].getName().equalsIgnoreCase(name)){
+                System.out.println("Enter student name");
+                String newName = scanner.nextLine();
+                studentArray[i].setName(newName);
+            }
+        }
 
     }
 

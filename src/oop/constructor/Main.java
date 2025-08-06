@@ -90,6 +90,7 @@ public class Main {
         System.out.println(CalcCircle.PI);*/
 
 
+        Shape shape = new Shape();
 
     }
 
