@@ -24,11 +24,12 @@ import java.util.Date;
 
 //Generalization
 
-public class Person {
+public abstract class Person {
     String name ; 
     Date dateOfBirth;
     String gender;
 
+    public abstract void test();
     public void printPerson(){
         System.out.println(name + " " + dateOfBirth + " " + gender);
     }

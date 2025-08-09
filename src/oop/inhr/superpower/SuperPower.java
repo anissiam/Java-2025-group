@@ -14,4 +14,8 @@ public class SuperPower extends Person{
 
     }
 
+    @Override
+    public void test() {
+
+    }
 }
