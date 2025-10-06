@@ -52,6 +52,10 @@ public class ArrayList_ {
         list1.add("anis");
         list1.add("sara");
 
+        System.out.println(list1.get(0));
+        //list1.set(0, "sami");
+
+
         stringArrayList.removeAll(list1);
 
         System.out.println(stringArrayList);
